@@ -1,0 +1,33 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+/* text-align: left */
+}
+body{
+ font-family: ;
+}
+.section1{
+ background-color: #022B69;
+ /* height: 400px; */
+ display: flex;
+}
+.section1Content{
+ margin-left: 73px;
+ color: #fff;
+ margin-top: 63px;
+}
+.section1Content h3{
+ width: 372px;
+ font-weight: 500px;
+ line-height: 43.57px;
+ font-size: 42px;
+ text-align: left;
+ margin-bottom: 15px;
+}
+.section1Content p{
+ line-height: 19.36px;
+ width: 300px;
+ text-align: left;
+ margin-bottom: 47px;
+}

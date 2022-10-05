@@ -1,0 +1,51 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ color: #0000FF;
+}
+header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-left: 3.375rem;
+ margin-right: 2.5rem;
+}
+.menu{
+ display: flex;
+ margin-left: -400px;
+}
+li{
+ list-style-type: none;
+ margin-right: 50px;
+ cursor: pointer;
+}
+li:hover{
+ text-decoration: underline;
+ color: gold;
+}
+.form1{
+ display: flex;
+ gap: 30px;
+ align-items: center;
+}
+a{
+ text-decoration: none;
+}
+a:hover{
+ text-decoration: underline;
+ color: gold;
+}
+.btn1{
+ color: white;
+ height: 38px;
+width: 140px;
+/* left: 859px;
+top: 24px; */
+border-radius: 50px;
+background: #0000FF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border: none;
+
+}
