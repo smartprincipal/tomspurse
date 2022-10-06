@@ -6,6 +6,8 @@ import Tompurse from '../../Asset/TomPurse.png'
 import Invest from '../../Asset/Invest.svg'
 import Later from '../../Asset/Later.svg'
 import Global from '../../Asset/globalicon.svg' 
+import LockImage from '../../Asset/LockImage.png' 
+// import Padlock from '../../Asset/Padlock.png'
 
 const LandingPage = () => {
   return (
@@ -55,6 +57,18 @@ const LandingPage = () => {
         </div>
         <p className='sec2side2p'>Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
         </div>
+      </div>
+     </section>
+
+     <section className="section3">
+      <div className="section3image">
+        <img src={LockImage} alt="" />
+        </div>
+      <div className="section3Side2">
+        <h4>Security that's strong as oak</h4>
+        <p>All your data is protected by bank-level security and 256-bit encryption.</p>
+        <a href="./">Learn more</a>
+        <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
       </div>
      </section>
 
