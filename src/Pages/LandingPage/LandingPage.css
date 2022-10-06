@@ -166,3 +166,30 @@ letter-spacing: 0em;
 text-align: left;
 max-width: 395px;
 }
+.section4{
+ padding-top: 116px;
+}
+.head{
+ text-align: center;
+ display: block;
+ justify-content: center;
+}
+.head h4{
+ font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #022B69;
+}
+.head p{
+ font-family: Gotham Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #3D3D46;
+width: 395px;
+}

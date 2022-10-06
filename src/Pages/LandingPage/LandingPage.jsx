@@ -7,9 +7,18 @@ import Invest from '../../Asset/Invest.svg'
 import Later from '../../Asset/Later.svg'
 import Global from '../../Asset/globalicon.svg' 
 import LockImage from '../../Asset/LockImage.png' 
-// import Padlock from '../../Asset/Padlock.png'
+import Financial from '../../Asset/FinancialIcon.png'
+import Easy from '../../Asset/EasyToUseIcon.png'
+import Swift from '../../Asset/SwiftIcon.png'
 
 const LandingPage = () => {
+
+  const cardContent=[
+    {id=0, head=`Financial Stablity
+    `, img={Financial}, content=`Our Payment gateway is secured with military grade encryption `},
+    {id=0, head=`Swift Payment`, img={Swift}, content=`Our Payment gateway is secured with military grade encryption `},
+    {id=0, head=`Easy to Use`, img={Easy}, content=`Our Payment gateway is secured with military grade encryption `}
+  ]
   return (
     <div>
      <NavBar/>
@@ -69,6 +78,14 @@ const LandingPage = () => {
         <p>All your data is protected by bank-level security and 256-bit encryption.</p>
         <a href="./">Learn more</a>
         <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+      </div>
+     </section>
+
+     <section className='section4'>
+      <div className='head'>
+        <h3>Zero Commissions</h3>
+        <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+
       </div>
      </section>
 
