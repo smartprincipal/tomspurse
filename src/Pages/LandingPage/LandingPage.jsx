@@ -10,14 +10,14 @@ import LockImage from '../../Asset/LockImage.png'
 import Financial from '../../Asset/FinancialIcon.png'
 import Easy from '../../Asset/EasyToUseIcon.png'
 import Swift from '../../Asset/SwiftIcon.png'
+import Card from '../../Components/Card/card';
 
 const LandingPage = () => {
 
   const cardContent=[
-    {id=0, head=`Financial Stablity
-    `, img={Financial}, content=`Our Payment gateway is secured with military grade encryption `},
-    {id=0, head=`Swift Payment`, img={Swift}, content=`Our Payment gateway is secured with military grade encryption `},
-    {id=0, head=`Easy to Use`, img={Easy}, content=`Our Payment gateway is secured with military grade encryption `}
+    {id:0, head:`Financial Stablity`, img: Financial, content:`Our Payment gateway is secured with military grade encryption `},
+    {id:0, head:`Swift Payment`, img: Swift, content:`Our Payment gateway is secured with military grade encryption `},
+    {id:0, head:`Easy to Use`, img: Easy, content:`Our Payment gateway is secured with military grade encryption `}
   ]
   return (
     <div>
@@ -84,8 +84,13 @@ const LandingPage = () => {
      <section className='section4'>
       <div className='head'>
         <h3>Zero Commissions</h3>
-        <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+        <p className='our'>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+      </div>
+      <div className="cardContainer">
+        {cardContent.map((item) =>(
 
+        <Card content={item.content} img={item.img} head={item.head} key={item.id}/>
+        ))}
       </div>
      </section>
 
