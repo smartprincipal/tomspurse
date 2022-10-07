@@ -1,15 +1,22 @@
+
 .footer{
  background-color: #022B69;
 }
 .footer1{
  display: flex;
+ border-bottom: 1px solid #1AD5FE;
+ justify-content: space-around;
+ 
+
 }
 .footerBlocks{
  display: flex;
  flex-direction: column;
  margin-top: 26px;
+ margin-bottom: 14px;
+ 
 }
-.withwhite{
+.withWhite{
  color: #fff;
  font-family: Gotham Pro;
 font-size: 16px;
@@ -42,7 +49,21 @@ letter-spacing: 0em;
 text-align: left;
 color: #1AD5FE;
 width: 209px;
+padding-top: 25px;
 }
 .socialImages{
  display: flex;
+ gap: 10px;
+ padding-top: 25px;
+}
+.footer2 p{
+ padding: 20px 14px 20px 28px;
+ color: #fff;
+ font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
 }

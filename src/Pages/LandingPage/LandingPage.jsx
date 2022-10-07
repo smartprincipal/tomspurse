@@ -15,6 +15,7 @@ import Card2 from '../../Components/Card/Card2';
 import DesignImage from '../../Asset/DesignImage.png'
 import Google from '../../Asset/googleplay.png'
 import Apple from '../../Asset/appstore.png'
+import Footer from '../../Components/Footer/Footer';
 
 const LandingPage = () => {
 
@@ -136,9 +137,9 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="carousel">
+      {/* <div className="carousel">
 
-      </div>
+      </div> */}
     </section>
 
     <section className="section7">
@@ -146,8 +147,7 @@ const LandingPage = () => {
 Be invested. </h3>
 <Button/>
     </section>
-
-
+    <Footer/>
     </div>
   )
 }
