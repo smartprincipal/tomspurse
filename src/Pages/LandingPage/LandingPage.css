@@ -207,9 +207,35 @@ margin-right: auto;
 
 .cardContainer{
  display: flex;
- max-width:60% ;
+ width:65% ;
  margin-left: auto;
  margin-right: auto;
- justify-content: space-between;
+ gap: 40px;
  margin-top: 45px;
+}
+
+.section5 {
+ background-color: #F4F8FC;
+}
+.section5 h3{
+ max-width: 453px;
+ margin-left: auto;
+ margin-right: auto;
+ color: #022B69;
+ font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+padding-top: 54px;
+
+}
+.cardContainer2{
+ display: flex;
+ /* margin-left: 75px;
+ margin-right: 63px; */
+ gap: 100px;
+ width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 63px;
 }

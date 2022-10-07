@@ -11,6 +11,7 @@ import Financial from '../../Asset/FinancialIcon.png'
 import Easy from '../../Asset/EasyToUseIcon.png'
 import Swift from '../../Asset/SwiftIcon.png'
 import Card from '../../Components/Card/card';
+import Card2 from '../../Components/Card/Card2';
 
 const LandingPage = () => {
 
@@ -18,6 +19,10 @@ const LandingPage = () => {
     {id:0, head:`Financial Stablity`, img: Financial, content:`Our Payment gateway is secured with military grade encryption `},
     {id:0, head:`Swift Payment`, img: Swift, content:`Our Payment gateway is secured with military grade encryption `},
     {id:0, head:`Easy to Use`, img: Easy, content:`Our Payment gateway is secured with military grade encryption `}
+  ]
+  const card2Content=[
+    {id:0, head2:`Basic`, subHead2:`7% for 2month`, content2:`Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.`},
+    {id:0, head2:`Plus`, subHead2:`22% for 6month`, content2:`Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.`}
   ]
   return (
     <div>
@@ -91,6 +96,17 @@ const LandingPage = () => {
 
         <Card content={item.content} img={item.img} head={item.head} key={item.id}/>
         ))}
+      </div>
+     </section>
+
+     <section className="section5">
+      <h3>Simple, Transparent Plans</h3>
+      <div className="cardContainer2">
+        {
+          card2Content.map((item) =>(
+            <Card2 content2={item.content2} head2={item.head2} subHead2={item.subHead2} />
+          ))
+        }
       </div>
      </section>
 
