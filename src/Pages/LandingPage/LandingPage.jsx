@@ -12,6 +12,9 @@ import Easy from '../../Asset/EasyToUseIcon.png'
 import Swift from '../../Asset/SwiftIcon.png'
 import Card from '../../Components/Card/card';
 import Card2 from '../../Components/Card/Card2';
+import DesignImage from '../../Asset/DesignImage.png'
+import Google from '../../Asset/googleplay.png'
+import Apple from '../../Asset/appstore.png'
 
 const LandingPage = () => {
 
@@ -109,6 +112,41 @@ const LandingPage = () => {
         }
       </div>
      </section>
+    
+    <section className="section6">
+      <div className="section6sub1">
+        <div className="designImage">
+        <img className='Designimage1' src={DesignImage} alt="" />
+        <img className='Designimage2' src={DesignImage} alt="" />
+        </div>
+        <div className="section6sub1Content">
+          <h3 className='sub1h3'> Invest.Earn</h3>
+          <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+          <div className="storeImage">
+            <div>
+              <a href="./">
+            <img src={Google} alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="./">
+              <img src={Apple} alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel">
+
+      </div>
+    </section>
+
+    <section className="section7">
+      <h3>Total control, total freedom.
+Be invested. </h3>
+<Button/>
+    </section>
+
 
     </div>
   )

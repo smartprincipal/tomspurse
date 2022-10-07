@@ -1,0 +1,48 @@
+.footer{
+ background-color: #022B69;
+}
+.footer1{
+ display: flex;
+}
+.footerBlocks{
+ display: flex;
+ flex-direction: column;
+ margin-top: 26px;
+}
+.withwhite{
+ color: #fff;
+ font-family: Gotham Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+/* font-family: Gotham Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Gotham Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left; */
+
+}
+.withBlue{
+ font-family: Gotham Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+color: #1AD5FE;
+width: 209px;
+}
+.socialImages{
+ display: flex;
+}
