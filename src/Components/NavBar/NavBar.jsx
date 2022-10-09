@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react'
+import { Link } from 'react-router-dom'
 import './NavBar.css'
 import TomsLogo from '../../Asset/TomspurseLogo.svg'
 import Button from '../Buttons/Button'
@@ -24,15 +24,15 @@ const NavBar = () => {
          return <li href='./'>{item}</li>
         })}
        </ul>
-      </navbar>
       <form action="" className='form1'>
         <div className="login">
-         <a  href="./">Log In</a>
+         <Link to="Login">Log In</Link>
         </div>
         <div>
          <Button/>
         </div>
       </form>
+      </navbar>
      </header>
     </div>
   )

@@ -1,0 +1,18 @@
+.container{
+ width: 116px;
+ height: 100vh;
+ background: #022B69;
+}
+.logo{
+ border-bottom: 1px solid #E3DDDD;
+}
+.logoo{
+ width: 76px;
+ height: 76px;
+}
+.imageRoute{
+ margin-top: 68px;
+}
+.icons{
+ margin-bottom: 33px;
+}

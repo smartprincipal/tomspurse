@@ -1,0 +1,12 @@
+.btn{
+ height: 67px;
+width: 228px;
+background: #022B69;
+border-radius: 10px 10px 10px 0px;
+color: #FFFFFF;
+font-family: Gotham Pro;
+font-size: 24px;
+font-weight: 700;
+line-height: 23px;
+border: none;
+}

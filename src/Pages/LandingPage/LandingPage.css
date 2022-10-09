@@ -11,12 +11,11 @@ body{
  background-color: #022B69;
  height: 520px;
  display: flex;
- /* justify-content: space-between; */
- /* margin-left: 80px; */
- gap: 300px;
+ /* gap: 300px; */
+ justify-content: space-around;
 }
 .section1Content{
- margin-left: 80px;
+ /* margin-left: 80px; */
  color: #fff;
  margin-top: 63px;
 }

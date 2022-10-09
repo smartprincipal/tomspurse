@@ -5,7 +5,7 @@ import Button from '../Buttons/Button'
 const Card2 = (props) => {
   return (
     <div className='card2'>
-     <h3 className='cardhead2'>{props.head2}</h3>
+     <h2 className='cardhead2'>{props.head2}</h2>
      <h4 className='cardSubHead2'>{props.subHead2}</h4>
      <p className='cardContent2'>{props.content2}</p>
      <Button/>

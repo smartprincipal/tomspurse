@@ -1,0 +1,88 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: #F4F8FC;
+}
+.container{
+ display: flex;
+ margin-top: 158px;
+ justify-content: space-around;
+ margin-bottom: 284px;
+}
+.content h3{
+ padding-top: 45px;
+ font-family: Gotham Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #022B69;
+}
+.content p{
+ color: #B2BED0;
+ padding-top: 31px;
+ font-family: Gotham Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+}
+.form0{
+ height: 562px;
+width: 553px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 20px 20px 20px 0px;
+background: #FFFFFF;
+}
+.form0 h3{
+ font-family: Gotham Pro;
+font-size: 30px;
+font-weight: 700;
+line-height: 29px;
+width: 335px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 54px;
+}
+.forminput{
+ margin: 56px 63px 0px 64px;
+}
+.label{
+ color: #B2BED0;
+ font-family: Gotham Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.input0{
+ height: 67px;
+width: 426px;
+border-radius: 10px;
+background: #F4F8FC;
+border-radius: 10px;
+margin-top: 11px;
+outline: none;
+border: none;
+padding-left: 15px;
+color: black;
+}
+.link{
+ display: flex;
+ margin: 21px 63px 0px 64px;
+ justify-content: space-between;
+}
+.log{
+ margin-top: 46px;
+ width: 228px;
+ margin-left: auto;
+ margin-right: auto;
+}
