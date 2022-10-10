@@ -38,7 +38,7 @@ const SignUp = () => {
        </div>
        
        <div className='oldUser'>
-         <Link to='Login'>Old user? Log In</Link>
+         <Link to='/Login'>Old user? Log In</Link>
        </div>
        <div className='log'>
        <Link to="/BVN">
