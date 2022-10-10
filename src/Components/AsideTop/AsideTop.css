@@ -1,0 +1,18 @@
+.dashboardHeader{
+ display: flex;
+}
+.block{
+ display: flex;
+ background: #0066F5;
+border-radius: 100px 0px 10px 100px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+height: 40px;
+width: 207px;
+}
+.block p{
+ color: #fff;
+ font-family: Gotham Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 15px;
+}

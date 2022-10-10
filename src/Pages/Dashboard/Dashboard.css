@@ -1,0 +1,183 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ background: #E5E5E5;
+}
+.dashboardContainer{
+ display: flex;
+}
+
+.asidecontainer{
+ width: 116px;
+ background: #022B69;
+}
+.asideLogo{
+ border-bottom: 1px solid #E3DDDD;
+}
+.asideLogoo{
+ width: 76px;
+ height: 76px;
+}
+.imageRoute{
+ margin-top: 68px;
+ text-align: center;
+}
+.icons{
+ margin-bottom: 33px;
+}
+.dashboardHeader{
+ display: flex;
+ border-bottom: 1px solid #E3DDDD;
+ align-items: center;
+ margin-top: 20px;
+ margin-bottom: 17.57px;
+}
+.block{
+ display: flex;
+ background: #0066F5;
+border-radius: 100px 0px 10px 100px;
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+height: 40px;
+width: 207px;
+align-items: center;
+}
+.block p{
+ color: #fff;
+ font-family: Gotham Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 15px;
+}
+.dashboardContent1{
+ display: flex;
+ /* justify-content: space-between; */
+ gap: 67px;
+ margin: 63.43px 151px 0px 144px;
+}
+.fundBlock{
+ height: 220px;
+width: 295px;
+border-radius: 20px;
+background: #F4F8FC;
+color: #022B69;
+}
+.fund{
+ display: flex;
+ margin: 15px 21px 0px 26px;
+ justify-content: space-between;
+ align-items: center;
+}
+.fundBlock h4{
+ padding: 46px 42px 0 44px;
+ font-family: Gotham Pro;
+font-size: 24px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.fundBlock p{
+ font-family: Gotham Pro;
+ font-size: 36px;
+ font-weight: 700;
+ line-height: 34px;
+ letter-spacing: 0em;
+ text-align: left;
+ padding: 23px 0 0 44px;
+}
+.portfolioBlock{
+ height: 345px;
+width: 667px;
+border-radius: 20px;
+background: #F4F8FC;
+}
+.portfolioFund{
+ display: flex;
+ margin: 15px 33px 0px 53px;
+ justify-content: space-between;
+ align-items: center;
+ color: #022B69;
+}
+.portfolioFund h3{
+ font-family: Gotham Pro;
+font-size: 30px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.portfolioCard{
+ display: flex;
+ justify-content: space-around;
+ margin: 39px 33px 0px 45px;
+}
+.dashboardContent2{
+ display: flex;
+ margin-top: 29px;
+ margin: 29px 151px 0px 144px;
+ gap: 67px;
+}
+.transactionBlock{
+ height: 356px;
+width: 295px;
+border-radius: 20px;
+background: #F4F8FC;
+}
+.transs{
+ height: 17px;
+ width: 178px;
+ margin: 46px 57px 21px 60px;
+ font-family: Gotham Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 17px;
+}
+th{
+ /* padding: 46px 94px 21px 60px; */
+ font-family: Gotham Pro;
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 23px;
+ letter-spacing: 0em;
+ text-align: left;
+}
+tr{
+ gap: 21px;
+ padding-top: 21px;
+}
+.transHead{
+ color: #3F3D56;
+
+}
+.colorRed{
+ color: red;
+}
+.colorGreen{
+ color: green;
+}
+.packageBlock{
+ height: 345px;
+width: 667px;
+border-radius: 20px;
+background: #F4F8FC;
+margin-top: 11px;
+}
+.packageBlock h3{
+ font-family: Gotham Pro;
+font-size: 30px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #022B69;
+padding: 29px 0 30px 53px;
+}
+.packageContainer{
+ display: flex;
+ margin: 30px 49px 80px 53px;
+ gap: 19px;
+}

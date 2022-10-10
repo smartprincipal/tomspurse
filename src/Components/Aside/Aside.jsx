@@ -10,7 +10,7 @@ import Settings from '../../Asset/Settings.svg'
 const Aside = () => {
   return (
     <div className='container'>
-     <div className="logo">
+     {/* <div className="logo">
       <img className='logoo' src={Logo} alt="" />
      </div>
 
@@ -33,7 +33,7 @@ const Aside = () => {
       <div className="icons">
        <img src={Settings} alt="" />
       </div>
-     </div>
+     </div> */}
 
     </div>
   )

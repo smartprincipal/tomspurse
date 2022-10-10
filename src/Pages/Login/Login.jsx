@@ -30,7 +30,7 @@ const Login = () => {
          <Link to='forgetPassword'>Forgot password?</Link>
         </div>
         <div>
-         <Link to='SignUp'>New user? Register</Link>
+         <Link to='/SignUp'>New user? Register</Link>
         </div>
        </div>
        <div className='log'>

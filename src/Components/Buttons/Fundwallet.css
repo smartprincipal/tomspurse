@@ -1,0 +1,11 @@
+button{
+ border: 1px solid #022B69;
+border-radius: 10px 5px 5px 0px;
+height: 39px;
+width: 138px;
+font-family: Gotham Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+color: #000000;
+}
