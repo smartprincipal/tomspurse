@@ -1,7 +1,7 @@
 import React from 'react'
 import './Token.css'
 import Dashboard from '../Dashboard/Dashboard'
-import Continue from '../BVN/Continue/Continue'
+import Continue3 from '../../Components/Buttons/Continue3/Continue3'
 
 const Token = () => {
   return (
@@ -16,7 +16,7 @@ const Token = () => {
         <form action="" className='tokenForm'>
           <input type="text" name="token" id="" className='tokenNumber' required/>
         <div className="skip">
-            <Continue/>
+            <Continue3/>
         </div>
         </form>
       </div>

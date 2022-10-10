@@ -41,7 +41,7 @@ const SignUp = () => {
          <Link to='/Login'>Old user? Log In</Link>
        </div>
        <div className='log'>
-       <Link to="/BVN">
+       <Link to="/BVN1">
       <input type="submit" value="Register"  className='btn'/>
       </Link>
        </div>

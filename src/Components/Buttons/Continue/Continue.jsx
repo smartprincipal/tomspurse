@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Continue = () => {
   return (
     <div >
-      <Link to='/Token'><button className='ContinueButton'>Continue</button></Link>
+      <Link to='/BVN2'><button className='ContinueButton'>Continue</button></Link>
     </div>
   )
 }
