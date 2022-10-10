@@ -36,6 +36,7 @@ body{
  margin-top: 20px;
  margin-bottom: 17.57px;
 margin-left: 880px;
+gap: 31px;
 }
 .block{
  display: flex;
