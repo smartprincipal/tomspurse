@@ -5,7 +5,12 @@ import Dashboard from '../Dashboard/Dashboard'
 const BVN = () => {
   return (
     <div className='bvn'>
+      <div className="dashB">
       <Dashboard/>
+      </div>
+      <div className="bvnVerification">
+        <h4></h4>
+      </div>
     </div>
   )
 }

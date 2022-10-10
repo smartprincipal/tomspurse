@@ -125,8 +125,8 @@ const Dashboard = () => {
             <h3>Package</h3>
             <div className="packageContainer">{
 
-             packaged.map((pick) => (
-              <Package packageImg={pick.packageImg} packageHead={pick.packageHead} packageAmount={pick.packageAmount} packageInterest={pick.packageInterest}/>
+             packaged.map((choice) => (
+              <Package packageImg={choice.packageImg} packageHead={choice.packageHead} packageAmount={choice.packageAmount} packageInterest={choice.packageInterest}/>
              ))
             }
             </div>

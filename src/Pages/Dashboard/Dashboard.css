@@ -8,6 +8,7 @@ body{
 }
 .dashboardContainer{
  display: flex;
+ position: relative;
 }
 
 .asidecontainer{
@@ -34,6 +35,7 @@ body{
  align-items: center;
  margin-top: 20px;
  margin-bottom: 17.57px;
+margin-left: 880px;
 }
 .block{
  display: flex;
