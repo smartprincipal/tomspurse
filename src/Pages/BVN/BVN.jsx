@@ -25,13 +25,13 @@ const BVN = () => {
             <div className="yy"></div> 
           </div> */}
           </div>
-        </form>
         <div className="skip">
           <div><Link to='./'><p>Skip</p></Link></div>
           <div>
             <Continue/>
-          </div>
         </div>
+          </div>
+        </form>
       </div>
     </div>
   )

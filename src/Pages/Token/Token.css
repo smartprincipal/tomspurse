@@ -1,0 +1,63 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.token{
+ position: relative;
+}
+.tokenDashboard{
+ z-index: -1;
+}
+.tokenVerification{
+ height: 562px;
+width: 880px;
+background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 20px 20px 20px 0px;
+position: absolute;
+top: 190px;
+left: 300px;
+}
+.tokenVerification h4{
+ font-family: Gotham Pro;
+font-size: 36px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #022B69;
+padding: 76px 0 0 78px;
+}
+.tokenVerification p{
+ font-family: Gotham Pro;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 23px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #7589A3; 
+ padding: 23px 0 61px 78px;
+}
+.tokenForm{
+ margin-left: 78px;
+}
+.tokenNumber{
+ height: 67px;
+ width: 580px;
+ border-radius: 3px;
+ border: 1px solid #B2BED0;
+ font-family: Gotham Pro;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 23px;
+ color: #B2BED0;
+ padding: 25px 0 19px 41px;
+ outline: none;
+}
+.skip{
+ display: flex;
+ margin-top: 72px;
+ justify-content: right;
+ margin-right: 93px;
+}
