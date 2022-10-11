@@ -129,12 +129,12 @@ const LandingPage = () => {
           <h3 className='sub1h3'> Invest.Earn</h3>
           <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
           <div className="storeImage">
-            <div>
+            <div className='aLink'>
               <a href="./">
             <img src={Google} alt="" />
               </a>
             </div>
-            <div>
+            <div className='aLink'>
               <a href="./">
               <img src={Apple} alt="" />
               </a>

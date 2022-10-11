@@ -463,7 +463,7 @@ padding-top: 65px;
   right: -7px;
  }
  .section6sub1Content{
-  margin-top: 118.51px;
+  margin-top: 90.51px;
  }
  .sub1h3{
 font-size: 24px;
@@ -478,9 +478,17 @@ padding-right: 44px;
 padding-top: 33px;
 
  }
+ .storeImage{
+  width: 90%;
+ }
 
  .section7 h3{
   padding: 39px 53px 33px 60px;
 
  }
+ /* .aLink{
+  height: 35.847381591796875px;
+  width: 120.98493957519531px; 
+ } */
+
 }
