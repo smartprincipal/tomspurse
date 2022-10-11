@@ -31,7 +31,7 @@ color: #022B69;
 padding-top: 19px;
 }
 .cardContent2{
- width: 378px;
+ max-width: 378px;
  color: #3D3D46;
  padding-top: 27px;
  padding-bottom: 27px;
@@ -57,4 +57,36 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 color: #3D3D46;
+}
+@media screen and (max-width: 800px){
+ .card2{
+  height: 469px;
+width: 298.4545593261719px;
+border-radius: 3.4384164810180664px;
+ }
+ .cardhead2{
+  font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+text-align: center;
+ }
+ .cardSubHead2{
+  font-family: Inter;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+ }
+ .cardContent2{
+  font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+
+ }
 }

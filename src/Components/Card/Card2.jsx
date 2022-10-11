@@ -1,6 +1,8 @@
 import React from 'react'
 import './Card2.css'
 import Button from '../Buttons/Button'
+// import Accordion from '../Accordion/Accordion'
+
 
 const Card2 = (props) => {
   return (
@@ -10,7 +12,8 @@ const Card2 = (props) => {
      <p className='cardContent2'>{props.content2}</p>
      <Button/>
      <div className="include">
-      <p className='what'>What’s Inculded</p>
+      {/* <Accordion/> */}
+      {/* <p className='what'>What’s Inculded</p> */}
      </div>
 
     </div>

@@ -38,7 +38,7 @@ const LandingPage = () => {
        <Button color='blue'/>
       </div>
       <div className="section1Img">
-        <img src={Tompurse} alt="tompurse" />
+        <img className='tomsImage' src={Tompurse} alt="tompurse" />
       </div>
      </section>
 
@@ -46,7 +46,9 @@ const LandingPage = () => {
       <div className="section2side1">
         <h2>Your guide to financial wellness</h2>
         <p>We’ll help you invest, save and spend responsibly for just $1, $2 or $3 per month. No surprise fees, just surprise upgrades</p>
+        <div className="learnMore">
         <a className='learn' href="./">Learn More</a>
+        </div>
       </div>
       <div className="section2side2">
         <div className="sec2">
@@ -80,13 +82,15 @@ const LandingPage = () => {
 
      <section className="section3">
       <div className="section3image">
-        <img src={LockImage} alt="" />
+        <img className='padlock' src={LockImage} alt="" />
         </div>
       <div className="section3Side2">
         <h4>Security that's strong as oak</h4>
         <p>All your data is protected by bank-level security and 256-bit encryption.</p>
+        <div className="le">
         <a href="./">Learn more</a>
-        <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+        </div>
+        <p className='company'>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
       </div>
      </section>
 
@@ -112,6 +116,7 @@ const LandingPage = () => {
           ))
         }
       </div>
+
      </section>
     
     <section className="section6">

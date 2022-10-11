@@ -15,6 +15,7 @@ import Portfolio from '../../Components/Card/Portfolio/Portfolio'
 import Starter from '../../Asset/starterPlanIcon.svg'
 import Value from '../../Asset/valuePlanIcon.svg'
 import Package from '../../Components/Card/Package/Package'
+import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
  const portfolio=[
@@ -36,7 +37,9 @@ const Dashboard = () => {
 
      <div className="imageRoute">
       <div className="icons">
+      <Link to='/'>
        <img src={Homepage} alt="" />
+      </Link>
       </div>
       <div className="icons">
        <img src={Information} alt="" />

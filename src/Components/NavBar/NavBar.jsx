@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import './NavBar.css'
 import TomsLogo from '../../Asset/TomspurseLogo.svg'
 import Button from '../Buttons/Button'
@@ -10,6 +11,12 @@ const NavBar = () => {
   'About Us',
   'Invest'
  ]
+ const [toggle, setToggle] = useState(false)
+ 
+const handleToggle = () => {
+  return setToggle(prevToggle =>!prevToggle)
+}
+
   return (
     <div>
      <header>
@@ -18,8 +25,11 @@ const NavBar = () => {
        <img src={TomsLogo} alt="Toms Logo" />
        </a>
       </div>
+      <div className="hamburger" id="hamburger" onClick={handleToggle}>
+        {toggle ? <span>&times;</span> : <span>&#9776;</span>}
+        </div>
       <navbar className="NavBar">
-       <ul className="menu">
+       <ul className={toggle ? 'menu-drop': 'menu'}>
         {nav.map((item) => {
          return <li href='./'>{item}</li>
         })}
@@ -28,7 +38,7 @@ const NavBar = () => {
         <div className="login">
          <Link to="Login">Log In</Link>
         </div>
-        <div>
+        <div className='navBarBtn'>
          <Button/>
         </div>
       </form>
