@@ -479,16 +479,14 @@ padding-top: 33px;
 
  }
  .storeImage{
-  width: 90%;
+  flex-direction: column;
+  width: 50%;
+  gap: 40px;
  }
 
  .section7 h3{
   padding: 39px 53px 33px 60px;
 
  }
- /* .aLink{
-  height: 35.847381591796875px;
-  width: 120.98493957519531px; 
- } */
 
 }

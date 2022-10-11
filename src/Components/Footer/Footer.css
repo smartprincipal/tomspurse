@@ -1,9 +1,13 @@
-
+*{
+ padding: 0;
+ margin: 0;
+}
 .footer{
  background-color: #022B69;
 }
 .footer1{
  display: flex;
+ flex-wrap: wrap;
  border-bottom: 1px solid #1AD5FE;
  justify-content: space-around;
  
@@ -11,6 +15,7 @@
 }
 .footerBlocks{
  display: flex;
+ /* flex-wrap: wrap; */
  flex-direction: column;
  margin-top: 26px;
  margin-bottom: 14px;
@@ -23,21 +28,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 15px;
 letter-spacing: 0em;
-text-align: left;
-
-/* font-family: Gotham Pro;
-font-size: 18px;
-font-weight: 700;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-
-font-family: Gotham Pro;
-font-size: 18px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left; */
+text-align: left
 
 }
 .withBlue{
@@ -66,4 +57,20 @@ line-height: 17px;
 letter-spacing: 0em;
 text-align: left;
 
+
+}
+@media screen and (max-width: 800px){
+.footer1{
+ justify-content: ;
+}
+.footer2 p{
+ padding: 20px 10px 20px 10px;
+ font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+width: 90%;
+}
 }
