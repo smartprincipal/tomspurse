@@ -1,3 +1,4 @@
+
 .card2{
  height: 420px;
 width: 434px;
@@ -44,6 +45,11 @@ margin-left: auto;
 margin-right: auto;
 
 }
+.card2btn{
+  width: 301px;
+  margin-left: auto;
+  margin-right: auto;
+ }
 .include{
  border-top: 1px solid #B2BED0;
  margin-top: 35px;
@@ -88,5 +94,10 @@ line-height: 15px;
 letter-spacing: 0em;
 text-align: center;
 
+ }
+ .card2btn{
+  width: 301px;
+  margin-left: auto;
+  margin-right: auto;
  }
 }

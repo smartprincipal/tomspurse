@@ -16,14 +16,25 @@ import DesignImage from '../../Asset/DesignImage.png'
 import Google from '../../Asset/googleplay.png'
 import Apple from '../../Asset/appstore.png'
 import Footer from '../../Components/Footer/Footer';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
+  const style ={
+    color: "#0000FF",
+    height: "38px",
+   width: "140px",
+   borderRadius: "50px",
+   backgroundColor: "white",
+   boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04)",
+   border: "none",
+  }
 
-  const cardContent=[
-    {id:0, head:`Financial Stablity`, img: Financial, content:`Our Payment gateway is secured with military grade encryption `},
-    {id:0, head:`Swift Payment`, img: Swift, content:`Our Payment gateway is secured with military grade encryption `},
-    {id:0, head:`Easy to Use`, img: Easy, content:`Our Payment gateway is secured with military grade encryption `}
-  ]
+  const [cardContent]= useState([
+    {id:0, head:`Financial Stablity`, img: Financial, content:`Our Payment gateway is secured with military grade encryption `, color:true},
+    {id:0, head:`Swift Payment`, img: Swift, content:`Our Payment gateway is secured with military grade encryption `, color:false},
+    {id:0, head:`Easy to Use`, img: Easy, content:`Our Payment gateway is secured with military grade encryption `, color:false}
+  ])
   const card2Content=[
     {id:0, head2:`Basic`, subHead2:`7% for 2month`, content2:`Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.`},
     {id:0, head2:`Plus`, subHead2:`22% for 6month`, content2:`Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.`}
@@ -35,7 +46,9 @@ const LandingPage = () => {
       <div className='section1Content'>
        <h3>Save Invest & Earn Anywhere !</h3>
        <p>Ipsum massa at cursus lacus erat lacus magna volutpat habitasse. Eu mauris et .</p>
-       <Button color='blue'/>
+       <Link to='/SignUp'>
+       <Button name={style}/>
+       </Link>
       </div>
       <div className="section1Img">
         <img className='tomsImage' src={Tompurse} alt="tompurse" />
@@ -102,7 +115,7 @@ const LandingPage = () => {
       <div className="cardContainer">
         {cardContent.map((item) =>(
 
-        <Card content={item.content} img={item.img} head={item.head} key={item.id}/>
+        <Card content={item.content} img={item.img} head={item.head} key={item.id} color={item.color}/>
         ))}
       </div>
      </section>
@@ -150,7 +163,11 @@ const LandingPage = () => {
     <section className="section7">
       <h3>Total control, total freedom.
 Be invested. </h3>
-<Button/>
+<div className="bottombtn">
+<Link to='/SignUp'>
+<Button name={{backgroundColor:"#DDFA00", borderRadius: '50px', width:'213px', height:'58px', fontSize:'22px', color:'#022B69', fontWeight:'600px'}}/>
+</Link>
+</div>
     </section>
     <Footer/>
     </div>

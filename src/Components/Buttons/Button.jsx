@@ -1,10 +1,10 @@
 import React from 'react'
 import './Button.css'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div>
-<a href='./'><button className='btn1'>Get Started</button></a>
+    <a href='./'><button style={props.name}>Get Started</button></a>
     </div>
   )
 }

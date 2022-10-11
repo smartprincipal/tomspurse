@@ -166,7 +166,8 @@ max-width: 395px;
  padding-top: 116px;
  display: block;
  justify-content: center;
- margin-bottom: 131px;
+ /* margin-bottom: 131px; */
+ /* background-color: #fff; */
 }
 .head{
  text-align: center;
@@ -206,6 +207,7 @@ margin-right: auto;
  margin-right: auto;
  gap: 40px;
  margin-top: 45px;
+ margin-bottom: 131px;
 }
 
 .section5 {
@@ -299,6 +301,11 @@ margin-right: auto;
 color: #FFFFFF;
 max-width: 347px;
 padding-bottom: 55px;
+}
+.bottombtn{
+  width: 217px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 800px){
@@ -425,6 +432,7 @@ font-weight: 400;
 line-height: 13px;
 letter-spacing: 0em;
 text-align: center;
+width: 250px;
  }
  .cardContainer{
   flex-direction: column;

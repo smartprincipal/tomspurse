@@ -6,9 +6,9 @@ import Log from '../../Components/LogBtn/Log'
 const Login = () => {
   return (
     <div className='Login'>
-     <div className="container">
+     <div className="containerLog">
       <div className="content">
-       <div className="logo">
+       <div className="loginLogo">
         <img src={Logo} alt="" />
        </div>
        <h3>Welcome Back,</h3>

@@ -16,6 +16,15 @@ const NavBar = () => {
 const handleToggle = () => {
   return setToggle(prevToggle =>!prevToggle)
 }
+const style={
+    color: "white",
+    height: "38px",
+   width: "140px",
+   borderRadius: "50px",
+   backgroundColor: "#0000FF",
+   boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04)",
+   border: "none",
+}
 
   return (
     <div>
@@ -39,7 +48,7 @@ const handleToggle = () => {
          <Link to="Login">Log In</Link>
         </div>
         <div className='navBarBtn'>
-         <Button/>
+         <Button name={style}/>
         </div>
       </form>
       </navbar>
