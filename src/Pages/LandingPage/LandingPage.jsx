@@ -42,6 +42,7 @@ const LandingPage = () => {
   return (
     <div>
      <NavBar/>
+
      <section className="section1">
       <div className='section1Content'>
        <h3>Save Invest & Earn Anywhere !</h3>
@@ -52,6 +53,8 @@ const LandingPage = () => {
        </Link>
        </div>
       </div>
+
+
       <div className="section1Img">
         <img className='tomsImage' src={Tompurse} alt="tompurse" />
       </div>
@@ -65,6 +68,8 @@ const LandingPage = () => {
         <a className='learn' href="./">Learn More</a>
         </div>
       </div>
+
+      
       <div className="section2side2">
         <div className="sec2">
 

@@ -6,7 +6,8 @@ import Continue from '../../../Components/Buttons/Continue/Continue'
 
 const BVN = () => {
 // const [BVN , setBVN] = useState('')
-//   let Sandpoint= 'https://ravesandboxapi.flutterwave.com/v2/kyc/bvn/:bvnnumber?seckey=FLWSECK-e6db11d1f8a6208de8cb2f94e293450e-X'
+//   let endPoint= 'https://api.flutterwave.com/v3/kyc/bvns/:bvn'
+// const secretKey= 'FLWSECK-6629d9ddb42c408a555142dda5b40720-X'
 
 //   const bvnChange=(e) => {
 //     setBVN(e.target.value)
@@ -38,14 +39,19 @@ const BVN = () => {
           <div className="DOBBlock">
           <label htmlFor="" className='DOB'>Date of Birth</label>
           <div className="DOBInput">
-            <input type="date" name="date" id="" className='date' />
+            <div>
+            <input type="text" name="date" className='dd' placeholder='DD'/>
+            </div>
+            <div>
+              <input type="text" name='month' className='mm'placeholder='MM' />
+            </div>
+            <div>
+              <input type="text" name="month" className='yy' placeholder='YY'/>
+            </div>
           </div>
-          {/* <div className="DOBInput">
-            <div className="dd" placeholder='DD'></div>
-            <div className="mm"></div>
-            <div className="yy"></div> 
-          </div> */}
           </div>
+
+          
         <div className="skip">
           <div><Link to='./'><p>Skip</p></Link></div>
           <div>

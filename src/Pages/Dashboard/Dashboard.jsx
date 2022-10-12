@@ -42,22 +42,40 @@ const Dashboard = () => {
       </Link>
       </div>
       <div className="icons">
+        <Link to='./'>
+
        <img src={Information} alt="" />
+        </Link>
       </div>
       <div className="icons">
+      <Link to='./'>
+
        <img src={Savings} alt="" />
+      </Link>
       </div>
       <div className="icons">
+      <Link to='./'>
+
        <img src={Profile} alt="" />
+      </Link>
       </div>
       <div className="icons">
+      <Link to='./'>
+
        <img src={Ref} alt="" />
+      </Link>
       </div>
       <div className="icons">
+      <Link to='./'>
+
        <img src={Settings} alt="" />
+      </Link>
       </div>
      </div>
      </div>
+
+
+     
      <div className="dashboardBlock">
       <div className="dashboardHeader">
      <div className="topIcon">
