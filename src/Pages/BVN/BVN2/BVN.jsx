@@ -32,8 +32,8 @@ const BVN = () => {
           type="text" 
           name="BVN" id="" 
           className='bvnNumber' placeholder='Bank Verification Number' 
-          value={BVN}
-          onChange={bvnChange}
+          // value={BVN}
+          // onChange={bvnChange}
           required/>
           <div className="DOBBlock">
           <label htmlFor="" className='DOB'>Date of Birth</label>
