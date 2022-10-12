@@ -6,11 +6,11 @@ import TomsLogo from '../../Asset/TomspurseLogo.svg'
 import Button from '../Buttons/Button'
 
 const NavBar = () => {
- const nav = [
-  'Home',
-  'About Us',
-  'Invest'
- ]
+//  const nav = [
+//   'Home',
+//   'About Us',
+//   'Invest'
+//  ]
  const [toggle, setToggle] = useState(false)
  
 const handleToggle = () => {
@@ -38,10 +38,13 @@ const style={
         {toggle ? <span>&times;</span> : <span>&#9776;</span>}
         </div>
       <navbar className="NavBar">
-       <ul className={toggle ? 'menu': 'menu-drop'}>
-        {nav.map((item) => {
+       <ul className={toggle ? 'menu-drop': 'menu'}>
+        <li><Link to='./' className='menu-list'>Home</Link></li>
+        <li><Link to='./' className='menu-list'>About Us</Link></li>
+        <li><Link to='./' className='menu-list'>Invest</Link></li>
+        {/* {nav.map((item) => {
          return <li href='./'>{item}</li>
-        })}
+        })} */}
        </ul>
       <form action="" className='form1'>
         <div className="login">

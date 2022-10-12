@@ -22,6 +22,14 @@ header{
  /* margin-left: -400px; */
  /* align-items: center; */
 }
+.menu-list {
+  text-decoration: none;
+  margin-left: 2.5rem;
+  color: #fff;
+}
+/* .menu li{
+ list-style-type: none;
+} */
 li{
  list-style-type: none;
  margin-right: 50px;
@@ -71,7 +79,7 @@ a:hover{
    left: 0px;
   justify-content: center;
   width: 174px;
-  background-color: #262626;
+  background-color: #fff;
   height: 88vh;
   position: absolute;
   top: 12vh;
@@ -81,6 +89,14 @@ a:hover{
  .menu{
    display: none;
  }
+ .menu-drop li{
+  list-style-type: none;
+  margin-top: 40px;
+}
+.menu-list{
+  font-size: 28px;
+  text-transform: uppercase;
+}
  .menu-drop li{
   margin-top: 40px;
 }
