@@ -148,6 +148,54 @@ line-height: 17px;
  } */
  
  @media screen and (max-width: 800px){
+  .containerSign{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    flex-direction: column;
+  }
+  .containerSign{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    flex-direction: column;
+  }
+  .contentSign h3{
+    padding-top: 20px;
+    font-family: Gotham Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center
+  }
+  .contentSign h4{
+    padding-top: 19px;
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  padding-bottom: 15px;
+  }
+  .formSign{
+    height: 840px;
+  }
+  .formSign h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 36px; 
+  }
+  .names{
+    flex-direction: column;
+  }
+  .forminputSS{
+    margin: 30px 15px 0px 30px;
+  }
+  .formInput2{
+    margin: 18px 15px 0px 30px;
+    }
+ 
 /* .containerSign{
   margin-top: 30px;
   margin-bottom: 80px;
