@@ -46,9 +46,11 @@ const LandingPage = () => {
       <div className='section1Content'>
        <h3>Save Invest & Earn Anywhere !</h3>
        <p>Ipsum massa at cursus lacus erat lacus magna volutpat habitasse. Eu mauris et .</p>
+       <div className="btys">
        <Link to='/SignUp'>
        <Button name={style}/>
        </Link>
+       </div>
       </div>
       <div className="section1Img">
         <img className='tomsImage' src={Tompurse} alt="tompurse" />

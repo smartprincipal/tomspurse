@@ -339,13 +339,19 @@ padding-left: 20px;
 padding-right: 10px;
 margin-bottom: 20px;
  }
+ .btys{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ }
  .section1Img{
   margin-top: 30px;
-  /* margin-left: -50px; */
-  /* width: 280px; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
  }
  .tomsImage{
-  width: auto;
+  /* width: auto; */
   height: 340px;
  }
  .section2{
