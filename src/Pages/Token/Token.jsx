@@ -1,7 +1,8 @@
 import React from 'react'
 import './Token.css'
 import Dashboard from '../Dashboard/Dashboard'
-import Continue3 from '../../Components/Buttons/Continue3/Continue3'
+import Continue from '../../Components/Buttons/Continue/Continue'
+import { Link } from 'react-router-dom'
 
 const Token = () => {
   return (
@@ -16,7 +17,9 @@ const Token = () => {
         <form action="" className='tokenForm'>
           <input type="text" name="token" id="" className='tokenNumber' required/>
         <div className="skip">
-            <Continue3/>
+        <Link to='/Dashboard'>
+         <Continue/>
+      </Link>
         </div>
         </form>
       </div>

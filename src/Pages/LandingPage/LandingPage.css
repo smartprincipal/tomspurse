@@ -202,6 +202,7 @@ margin-right: auto;
 
 .cardContainer{
  display: flex;
+ flex-wrap: wrap;
  width:65% ;
  margin-left: auto;
  margin-right: auto;
@@ -227,8 +228,7 @@ padding-top: 54px;
 }
 .cardContainer2{
  display: flex;
- /* margin-left: 75px;
- margin-right: 63px; */
+ flex-wrap: wrap;
  gap: 100px;
  width: 70%;
  margin-left: auto;
@@ -435,7 +435,7 @@ text-align: center;
 width: 250px;
  }
  .cardContainer{
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 80%;
   gap: 97px;
  }

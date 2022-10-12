@@ -38,7 +38,7 @@ const style={
         {toggle ? <span>&times;</span> : <span>&#9776;</span>}
         </div>
       <navbar className="NavBar">
-       <ul className={toggle ? 'menu-drop': 'menu'}>
+       <ul className={toggle ? 'menu': 'menu-drop'}>
         {nav.map((item) => {
          return <li href='./'>{item}</li>
         })}

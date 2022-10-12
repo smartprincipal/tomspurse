@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className='Login'>
      <div className="containerLog">
-      <div className="content">
+      <div className="contentLog">
        <div className="loginLogo">
         <img src={Logo} alt="" />
        </div>
@@ -16,14 +16,14 @@ const Login = () => {
       </div>
       <form action="" className='form0'>
        <h3>Login to your account </h3>
-       <div className='forminput'>
+       <div className='forminput0'>
        <label htmlFor="" className='label'>Email</label><br />
-       <input type="email" name="email" id="" className='input0'/>
+       <input type="email" name="email" id="" className='input00'/>
        </div>
 
-       <div className='forminput'>
+       <div className='forminput0'>
        <label htmlFor="" className='label'>Password</label><br />
-       <input type="password" name="password" id="" className='input0'/>
+       <input type="password" name="password" id="" className='input00'/>
        </div>
        <div className="link">
         <div>
@@ -33,7 +33,7 @@ const Login = () => {
          <Link to='/SignUp'>New user? Register</Link>
         </div>
        </div>
-       <div className='log'>
+       <div className='logi'>
         <Log/>
        </div>
 

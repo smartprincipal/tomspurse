@@ -2,7 +2,7 @@ import React from 'react'
 import './BVN.css'
 import Dashboard from '../../Dashboard/Dashboard'
 import { Link } from 'react-router-dom'
-import Continue2 from '../../../Components/Buttons/Continue2/Continue2'
+import Continue from '../../../Components/Buttons/Continue/Continue'
 
 const BVN = () => {
   return (
@@ -28,7 +28,9 @@ const BVN = () => {
         <div className="skip">
           <div><Link to='./'><p>Skip</p></Link></div>
           <div>
-            <Continue2/>
+          <Link to='/Token'>
+         <Continue/>
+      </Link>
         </div>
           </div>
         </form>
