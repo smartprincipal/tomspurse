@@ -22,6 +22,12 @@ header{
  margin-left: -500px;
  /* align-items: center; */
 }
+.menu-drop{
+  display: flex;
+}
+.ul{
+  display: flex;
+}
 .menu-list {
   text-decoration: none;
   margin-left: 2.5rem;
@@ -82,6 +88,8 @@ a:hover{
   top: 12vh;
   text-align: center;
   z-index: 1;
+  color: #022B69;
+  font-weight: bold;
  }
  .menu{
    display: none;
@@ -93,6 +101,10 @@ a:hover{
 .menu-list{
   font-size: 18px;
   text-transform: uppercase;
+
+}
+.ul{
+  flex-direction: column;
 }
  .menu-drop li{
   margin-top: 40px;

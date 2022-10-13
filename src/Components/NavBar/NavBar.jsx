@@ -37,15 +37,15 @@ const style={
       <div className="hamburger" id="hamburger" onClick={handleToggle}>
         {toggle ? <span>&times;</span> : <span>&#9776;</span>}
         </div>
-      <navbar className="NavBar">
-       <ul className={toggle ? 'menu-drop': 'menu'}>
+      <navbar className={toggle ? 'menu-drop': 'menu'}>
+       <ul className='ul'>
         <li><Link to='./' className='menu-list'>Home</Link></li>
         <li><Link to='./' className='menu-list'>About Us</Link></li>
         <li><Link to='./' className='menu-list'>Invest</Link></li>
         {/* {nav.map((item) => {
          return <li href='./'>{item}</li>
         })} */}
-       </ul>
+       </ul >
       <form action="" className='form1'>
         <div className="login">
          <Link to="Login">Log In</Link>
