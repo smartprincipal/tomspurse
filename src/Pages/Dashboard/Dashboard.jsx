@@ -29,6 +29,8 @@ const Dashboard = () => {
  ]
   return (
     <div className='dashboardContainer'>
+
+      {/* ASIDE */}
      <div className="asidecontainer">
 
       <div className="asideLogo">
@@ -77,6 +79,8 @@ const Dashboard = () => {
 
      
      <div className="dashboardBlock">
+
+      {/* HEADER */}
       <div className="dashboardHeader">
      <div className="topIcon">
          <img src={TopIcon} alt="" />
@@ -90,6 +94,8 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+
+      {/* DASHBOARD CONTENT */}
         <div className="dashboard">
          <div className="dashboardContent1">
           <div className="fundBlock">

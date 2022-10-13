@@ -42,11 +42,12 @@ const LandingPage = () => {
   return (
     <div>
      <NavBar/>
-
+      {/* SECTION 1 */}
      <section className="section1">
       <div className='section1Content'>
        <h3>Save Invest & Earn Anywhere !</h3>
        <p>Ipsum massa at cursus lacus erat lacus magna volutpat habitasse. Eu mauris et .</p>
+       {/* SECTION1 BUTTON */}
        <div className="btys">
        <Link to='/SignUp'>
        <Button name={style}/>
@@ -54,12 +55,13 @@ const LandingPage = () => {
        </div>
       </div>
 
-
+      {/* SECTION1 IMAGE */}
       <div className="section1Img">
         <img className='tomsImage' src={Tompurse} alt="tompurse" />
       </div>
      </section>
 
+      {/* SECTION 2 */}
      <section className="section2">
       <div className="section2side1">
         <h2>Your guide to financial wellness</h2>
@@ -69,7 +71,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      
+      {/* SECTION 2 SIDE 2 */}
       <div className="section2side2">
         <div className="sec2">
 
@@ -99,11 +101,15 @@ const LandingPage = () => {
         </div>
       </div>
      </section>
-
+{/* SECTION 3 */}
      <section className="section3">
+
+      {/* SECTION 3 IMAGE IN SIDE 1 */}
       <div className="section3image">
         <img className='padlock' src={LockImage} alt="" />
         </div>
+
+        {/* SECTION 3 SIDE 2 */}
       <div className="section3Side2">
         <h4>Security that's strong as oak</h4>
         <p>All your data is protected by bank-level security and 256-bit encryption.</p>
@@ -114,11 +120,14 @@ const LandingPage = () => {
       </div>
      </section>
 
+{/* SECTION 4 */}
      <section className='section4'>
       <div className='head'>
         <h3>Zero Commissions</h3>
         <p className='our'>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
       </div>
+
+      {/* SECTION 4 cARD */}
       <div className="cardContainer">
         {cardContent.map((item) =>(
 
@@ -127,8 +136,11 @@ const LandingPage = () => {
       </div>
      </section>
 
+{/* SECTION 5 */}
      <section className="section5">
       <h3>Simple, Transparent Plans</h3>
+
+      {/* SECTION 5 CARD */}
       <div className="cardContainer2">
         {
           card2Content.map((item) =>(
@@ -139,6 +151,7 @@ const LandingPage = () => {
 
      </section>
     
+    {/* SECTION 6 */}
     <section className="section6">
       <div className="section6sub1">
         <div className="designImage">
@@ -166,16 +179,19 @@ const LandingPage = () => {
 
       </div> */}
     </section>
-
+{/* SECTION 7 */}
     <section className="section7">
       <h3>Total control, total freedom.
 Be invested. </h3>
+{/* SECTION 7 BUTTON */}
 <div className="bottombtn">
 <Link to='/SignUp'>
 <Button name={{backgroundColor:"#DDFA00", borderRadius: '50px', width:'213px', height:'58px', fontSize:'22px', color:'#022B69', fontWeight:'600px'}}/>
 </Link>
 </div>
     </section>
+
+    {/* FOOTER COMPONENTS SECTION */}
     <Footer/>
     </div>
   )
