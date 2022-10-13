@@ -9,13 +9,14 @@
  display: flex;
  flex-wrap: wrap;
  border-bottom: 1px solid #1AD5FE;
- justify-content: space-around;
+ /* justify-content: space-around; */
+ gap: 20px;
  
 
 }
 .footerBlocks{
  display: flex;
- /* flex-wrap: wrap; */
+ flex-wrap: wrap;
  flex-direction: column;
  margin-top: 26px;
  margin-bottom: 14px;
@@ -72,5 +73,12 @@ line-height: 17px;
 letter-spacing: 0em;
 text-align: left;
 width: 90%;
+}
+.footer1{
+ /* flex-direction: column; */
+ /* justify-content: center; */
+ width: 30%;
+ margin-left: auto;
+ margin-right: auto;
 }
 }
