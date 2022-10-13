@@ -17,7 +17,7 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0p
 border-radius: 20px 20px 20px 0px;
 position: absolute;
 top: 190px;
-left: 300px;
+left: 250px;
 }
 .bvnVerification h4{
  font-family: Gotham Pro;
@@ -100,7 +100,7 @@ padding: 76px 0 36px 78px;
  justify-content: right;
  margin-right: 93px;
 }
-/* .DOBInput{
+ .DOBInput{
  display: flex;
 }
 .dd{
@@ -118,4 +118,4 @@ border: 1px solid #B2BED0;
 width: 95px;
 border-radius: 3px;
 border: 1px solid #B2BED0;
-} */
+}

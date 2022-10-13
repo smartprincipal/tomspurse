@@ -8,6 +8,7 @@
 }
 .tokenDashboard{
  z-index: -1;
+ opacity: 0.5;
 }
 .tokenVerification{
  height: 562px;
