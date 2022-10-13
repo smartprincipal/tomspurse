@@ -73,7 +73,7 @@ a:hover{
   font-weight: bolder;
   display: block;
   position: absolute;
-  right: 0px;
+  right: -30px;
   top: 15px;
   cursor: pointer;
  }
