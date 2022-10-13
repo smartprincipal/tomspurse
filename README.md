@@ -1,3 +1,18 @@
+Tomspurse is a fintech app designed with react
+
+designed Tomspurse with components like the Navigation bar, button, card, Aside for easier reusability
+
+Enclosed in this Tompurse design is a landing page, Login page, Sign up page, Enter BVN page, BVN Information page, Token page and Dashboard page.
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
