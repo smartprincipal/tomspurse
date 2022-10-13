@@ -352,7 +352,7 @@ margin-bottom: 20px;
   margin-right: auto;
  }
  .tomsImage{
-  /* width: auto; */
+  width: 300px;
   height: 340px;
  }
  .section2{
@@ -443,7 +443,7 @@ width: 250px;
  }
  .cardContainer{
   /* flex-direction: column; */
-  width: 80%;
+  width: 90%;
   gap: 97px;
  }
  .section5 h3{
@@ -454,9 +454,8 @@ line-height: 29px;
 padding-top: 65px;
  }
  .cardContainer2{
-  flex-direction: column;
   gap: 41px;
-  width: 95%;
+  width: 92%;
  }
  .section6sub1{
   flex-direction: column;
@@ -489,7 +488,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 13px;
 text-align: center;
-padding-right: 44px;
+/* padding-right: 44px; */
 padding-top: 33px;
 
  }
