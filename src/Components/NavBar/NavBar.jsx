@@ -39,7 +39,7 @@ const style={
         </div>
       <navbar className={toggle ? 'menu-drop': 'menu'}>
        <ul className='ul'>
-        <li><Link to='./' className='menu-list'>Home</Link></li>
+        <li><Link to='/' className='menu-list'>Home</Link></li>
         <li><Link to='./' className='menu-list'>About Us</Link></li>
         <li><Link to='./' className='menu-list'>Invest</Link></li>
         {/* {nav.map((item) => {
