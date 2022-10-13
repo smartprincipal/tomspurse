@@ -44,9 +44,33 @@ color: #022B69;
  color: #B2BED0;
 }
 
-.skip{
+.skips{
  display: flex;
  margin-top: 72px;
  justify-content: right;
  margin-right: 93px;
+}
+@media screen and (max-width: 800px) {
+
+ .bvnInfo{
+  top: 160px;
+  left: 0px;
+  height: 600px;
+  width: 310px;
+  margin-left: 5px;
+ }
+ .bvnInfo h4{
+padding: 57px;
+padding-right: 37px;
+padding-top: 0px;
+ }
+ .bvnInfo p{
+  padding-top: -20px;
+ }
+ .infoImg{
+  margin-top: 30px;
+ }
+ .skip{
+  margin-top: 20px;
+ }
 }

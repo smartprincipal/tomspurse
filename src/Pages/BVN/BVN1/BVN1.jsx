@@ -10,10 +10,10 @@ const BVN1 = () => {
   const customStyles = {
     content: {
       top: '50%',
-      left: '45%',
+      left: '48.5%',
       right: 'auto',
       bottom: 'auto',
-      marginRight: '-50%',
+      marginRight: '-45%',
       transform: 'translate(-50%, -50%)',
       outline: 'none'
     },
@@ -58,7 +58,8 @@ const BVN1 = () => {
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
-        contentLabel="Example Modal" className='bvnVerification'
+        contentLabel="Example Modal" 
+        className='bvnVerification'
       >
 
 
@@ -88,7 +89,7 @@ const BVN1 = () => {
           </div>
 
 
-        <div className="skip">
+        <div className="skips">
           <div><Link to='./'><p>Skip</p></Link></div>
           <div>
           <Link to='/Token'>

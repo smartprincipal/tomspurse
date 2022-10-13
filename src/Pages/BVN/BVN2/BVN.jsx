@@ -3,36 +3,36 @@ import './BVN.css'
 import Dashboard from '../../Dashboard/Dashboard'
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-// import { Link } from 'react-router-dom'
-// import Continue from '../../../Components/Buttons/Continue/Continue'
+import { Link } from 'react-router-dom'
+import Continue from '../../../Components/Buttons/Continue/Continue'
 
 const BVN = () => {
-  const customStyles = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-    },
-  };
+  // const customStyles = {
+  //   content: {
+  //     top: '50%',
+  //     left: '50%',
+  //     right: 'auto',
+  //     bottom: 'auto',
+  //     marginRight: '-50%',
+  //     transform: 'translate(-50%, -50%)',
+  //   },
+  // };
 
-  let subtitle;
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  // let subtitle;
+  // const [modalIsOpen, setIsOpen] = React.useState(false);
 
-  function openModal() {
-    setIsOpen(true);
-  }
+  // function openModal() {
+  //   setIsOpen(true);
+  // }
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    subtitle.style.color = '#f00';
-  }
+  // function afterOpenModal() {
+  //   // references are now sync'd and can be accessed.
+  //   subtitle.style.color = '#f00';
+  // }
 
-  function closeModal() {
-    setIsOpen(false);
-  }
+  // function closeModal() {
+  //   setIsOpen(false);
+  // }
 
 
 // const [BVN , setBVN] = useState('')
@@ -57,7 +57,7 @@ const BVN = () => {
       <Dashboard/>
       </div>
       <div className="bvnVerification">
-        {/* <h4>Add your BVN</h4>
+        <h4>Add your BVN</h4>
         <form action="" className='bvnForm'>
           <input 
           type="text" 
@@ -90,10 +90,10 @@ const BVN = () => {
       </Link>
         </div>
           </div>
-        </form> */}
+        </form>
 
 <div>
-      <button onClick={openModal}>Open Modal</button>
+      {/* <button onClick={openModal}>Open Modal</button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -111,7 +111,7 @@ const BVN = () => {
           <button>inside</button>
           <button>the modal</button>
         </form>
-      </Modal>
+      </Modal> */}
     </div>
       </div>
     </div>

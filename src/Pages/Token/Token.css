@@ -62,3 +62,27 @@ padding: 76px 0 0 78px;
  justify-content: right;
  margin-right: 93px;
 }
+@media screen and (max-width:800px) {
+ .tokenVerification{
+  width: 320px;
+  left: 0;
+  top: 160px;
+  height: 450px;
+ }
+ .tokenVerification h4{
+  text-align: center;
+  padding: 56px 0 0 0;
+ }
+ .tokenVerification p{
+  padding: 23px 5px 0 5px;
+  text-align: center;
+ }
+ .tokenForm{
+  margin-left: 10px;
+  margin-top: 30px;
+ }
+ .tokenNumber{
+  padding: 25px 0 19px 21px;
+  width: 300px;
+ }
+}

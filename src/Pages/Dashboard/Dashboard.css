@@ -201,10 +201,24 @@ padding: 29px 0 30px 53px;
  margin: 30px 10px 0px 10px;
 }
 .portfolioBlock{
- height: 842px;
+ height: 263px;
+ width: 295px;
 }
 .portfolioCard{
+ display: none;
  flex-direction: column;
  gap: 30px;
+}
+
+.transactionBlock{
+ display: none;
+}
+.packageBlock{
+ width: 295px;
+ height: 600px;
+}
+.packageContainer{
+ flex-direction: column;
+ margin: 20px 10px 40px 10px;
 }
 }
