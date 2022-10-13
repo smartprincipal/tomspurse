@@ -71,7 +71,7 @@ const SignUp = () => {
        <h3>Welcome,</h3>
        <h4>Register to continue.</h4>
       </div>
-      <form action="" className='formSign' onSubmit={handleSubmit}>
+      <form action="" className='formSign' onSubmit={handleSubmit} >
        <h3>Register an account </h3>
 
        <div className='forminputSS'>

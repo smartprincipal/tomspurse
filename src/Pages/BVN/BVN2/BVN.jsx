@@ -50,6 +50,7 @@ const BVN = () => {
 //     }
 //     bvnChange()
 //   }, [BVN])
+
   
   return (
     <div className='bvn'>

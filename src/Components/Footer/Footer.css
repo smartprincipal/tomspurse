@@ -9,7 +9,7 @@
  display: flex;
  flex-wrap: wrap;
  border-bottom: 1px solid #1AD5FE;
- /* justify-content: space-around; */
+ justify-content: space-around;
  gap: 20px;
  
 
