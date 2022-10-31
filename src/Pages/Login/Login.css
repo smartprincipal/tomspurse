@@ -87,6 +87,10 @@ color: black;
  margin-left: auto;
  margin-right: auto;
 }
+.errorMsg{
+  color: red;
+  font-size: 8px;
+}
 
 @media screen and (max-width: 800px){
  .containerLog{
