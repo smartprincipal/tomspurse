@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/accordion": "^2.1.2",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@itseasy21/react-elastic-carousel": "^0.12.3",

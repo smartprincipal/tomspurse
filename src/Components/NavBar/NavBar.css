@@ -12,6 +12,7 @@ header{
  margin-left: 3.375rem;
  margin-right: 2.5rem;
  position: relative;
+ /* align-items: center; */
 }
 .NavBar{
  align-items: center;
@@ -20,7 +21,7 @@ header{
 .menu{
  display: flex;
  margin-left: -500px;
- /* align-items: center; */
+ align-items: center;
 }
 .menu-drop{
   display: flex;
@@ -83,9 +84,9 @@ a:hover{
   justify-content: center;
   width: 174px;
   background-color: #fff;
-  height: 88vh;
+  height: 89vh;
   position: absolute;
-  top: 12vh;
+  top: 11vh;
   text-align: center;
   z-index: 1;
   color: #022B69;

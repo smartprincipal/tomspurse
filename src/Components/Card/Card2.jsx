@@ -12,7 +12,7 @@ const Card2 = (props) => {
      <p className='cardContent2'>{props.content2}</p>
      <div className="card2btn">
       <Link to='/SignUp'>
-     <Button name={{width:'312px', background:'#0000FF',color:'#fff', fontSize:'14px', borderRadius:'50px'}}/>
+     <Button name={{width:'280px', background:'#0000FF',color:'#fff', fontSize:'14px', borderRadius:'50px'}}/>
       </Link>
      </div>
      <div className="include">

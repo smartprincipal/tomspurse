@@ -160,7 +160,7 @@ const LandingPage = () => {
         </div>
         <div className="section6sub1Content">
           <h3 className='sub1h3'> Invest.Earn</h3>
-          <p>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
+          <p className='comp'>Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes, </p>
           <div className="storeImage">
             <div className='aLink'>
               <a href="./">
