@@ -46,7 +46,7 @@ const Login = () => {
   // reset({
   //   email:"westsideyjay@gmail.com",
   //   password: '1234567'
-  // });
+  // })
 
   return (
     <div className='Login'>
