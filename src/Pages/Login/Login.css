@@ -50,10 +50,10 @@ margin-right: auto;
 padding-top: 54px;
 }
 .forminput0{
-  margin-top: 56px;
+  /* margin-top: 56px;
   margin-right: 63px;
-  margin-left: 64px;
- /* margin: 56px 63px 0px 64px; */
+  margin-left: 64px; */
+ margin: 56px 63px 0px 64px;
 }
 .label{
   color: #B2BED0;
@@ -117,6 +117,13 @@ text-align: center;
 padding-bottom: 56px;
 
  }
+ .form0{
+  display: block;
+  justify-content: center;
+  max-width: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
  .form0 h3{
   font-family: Gotham Pro;
 font-size: 18px;
@@ -130,7 +137,7 @@ text-align: center;
  margin-right: 15px;
  }
  .input00{
-width: 300px;
+width: 100%;
  }
  .link{
   margin: 10px 15px 0px 15px;
