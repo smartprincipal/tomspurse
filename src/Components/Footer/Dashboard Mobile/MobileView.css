@@ -1,0 +1,33 @@
+.mobileViewFooter{
+ display: none;
+}
+
+
+/* mobile view */
+@media screen and (max-width: 800px) {
+ .mobileViewFooter{
+  margin-top: 50px;
+  /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: space-around;
+  border-top: 0.3px solid #535461;
+  padding: 20px 5px;
+  align-items: center;
+ }
+ .below{
+ text-align: center;
+ }
+ .below img{
+  text-align: center;
+ }
+ a{
+  font-family: Gotham Pro;
+font-size: 12px;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: center;
+color: #3F3D56;
+
+ }
+}

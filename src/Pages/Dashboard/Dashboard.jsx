@@ -16,7 +16,7 @@ import Starter from '../../Asset/starterPlanIcon.svg'
 import Value from '../../Asset/valuePlanIcon.svg'
 import Package from '../../Components/Card/Package/Package'
 import { Link } from 'react-router-dom'
-
+import MobileView from '../../Components/Footer/Dashboard Mobile/MobileView'
 const Dashboard = () => {
  const portfolio=[
   {id:0, portHead:`TOTAL BALANCE`, portAmount:`₦5,000`},
@@ -174,6 +174,11 @@ const Dashboard = () => {
          </div>
         </div>
      </div>
+            <div className="footerIcon">
+              <MobileView/>
+            </div>
+
+     
     </div>
   )
 }

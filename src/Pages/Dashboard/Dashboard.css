@@ -121,7 +121,7 @@ text-align: left;
 .dashboardContent2{
  display: flex;
  margin-top: 29px;
- margin: 29px 151px 90px 144px;
+ margin: 29px 151px 130px 144px;
  gap: 67px;
 }
 .transactionBlock{
@@ -187,6 +187,7 @@ padding: 29px 0 30px 53px;
  margin: 30px 49px 80px 53px;
  gap: 19px;
 }
+
 @media screen and (max-width:800px) {
  .dashboardContainer{
   flex-direction: column;
