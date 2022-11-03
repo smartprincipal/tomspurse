@@ -186,18 +186,21 @@ line-height: 17px;
     text-align: center;
     padding-top: 36px; 
   }
+  .inputS{
+    width: 100%;
+  }
   .names{
     flex-direction: column;
   }
   .forminputSS{
-    margin: 30px 15px 0px 30px;
+    margin: 30px 10px 0px 10px;
   }
   .formInput2{
-    margin: 18px 15px 0px 30px;
+    margin: 18px 10px 0px 10px;
     }
 
     .input2{
-     width: 240px;
+     width: 100%;
     }
     /* . */
  

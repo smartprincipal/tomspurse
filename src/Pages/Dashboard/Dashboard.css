@@ -57,7 +57,7 @@ line-height: 15px;
 .dashboardContent1{
  display: flex;
  /* justify-content: space-between; */
- gap: 67px;
+ gap: 100px;
  margin: 63.43px 151px 0px 144px;
 }
 .fundBlock{
@@ -121,11 +121,11 @@ text-align: left;
 .dashboardContent2{
  display: flex;
  margin-top: 29px;
- margin: 29px 151px 0px 144px;
+ margin: 29px 151px 90px 144px;
  gap: 67px;
 }
 .transactionBlock{
- height: 356px;
+ height: 386px;
 max-width: 295px;
 border-radius: 20px;
 background: #F4F8FC;
@@ -140,13 +140,13 @@ font-weight: 700;
 line-height: 17px;
 }
 th{
- /* padding: 46px 94px 21px 60px; */
  font-family: Gotham Pro;
  font-size: 24px;
  font-weight: 700;
  line-height: 23px;
  letter-spacing: 0em;
  text-align: left;
+ padding-bottom: 21px;
 }
 tr{
  gap: 21px;
@@ -154,16 +154,19 @@ tr{
 }
 .transHead{
  color: #3F3D56;
+ padding-bottom: 29px;
 
 }
 .colorRed{
  color: red;
+ padding-bottom: 29px;
 }
 .colorGreen{
  color: green;
+ padding-bottom: 29px;
 }
 .packageBlock{
- height: 345px;
+ height: 375px;
 width: 667px;
 border-radius: 20px;
 background: #F4F8FC;
@@ -185,20 +188,35 @@ padding: 29px 0 30px 53px;
  gap: 19px;
 }
 @media screen and (max-width:800px) {
+ .dashboardContainer{
+  flex-direction: column;
+  justify-content: center;
+ }
 .asidecontainer{
+ display: none;
+}
+.dashboardBlock{
+ margin: 0 10px 0 10px;
+ display: flex;
+ justify-content: center;
+}
+.dashboardHeader{
  display: none;
 }
 .dashboardContent1{
  flex-direction: column;
- margin: 30px 10px 0px 10px;
-}
-.portfolioFund{
- display: block;
- gap: 25px;
+ margin: 30px 0px 0px 0px;
 }
 .dashboardContent2{
  flex-direction: column;
- margin: 30px 10px 0px 10px;
+ margin: 30px 0px 0px 0px;
+}
+.portfolioFund{
+ /* display: block; */
+ gap: 25px;
+}
+.wallett{
+ display: none;
 }
 .portfolioBlock{
  height: 263px;
@@ -220,5 +238,6 @@ padding: 29px 0 30px 53px;
 .packageContainer{
  flex-direction: column;
  margin: 20px 10px 40px 10px;
+ gap: 61px;
 }
 }

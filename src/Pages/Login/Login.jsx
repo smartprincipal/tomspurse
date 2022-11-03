@@ -59,9 +59,12 @@ const Login = () => {
        <p>Log in to continue.</p>
       </div>
       <form action="" className='form0' onSubmit={handleSubmit(onSubmit)}>
+
        <h3>Login to your account </h3>
+       
        <div className='forminput0'>
        <label htmlFor="" className='label'>Email</label><br />
+       
        <input 
        type="email" 
        name="email" 

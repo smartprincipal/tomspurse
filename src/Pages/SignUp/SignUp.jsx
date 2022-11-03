@@ -18,7 +18,7 @@ const SignUp = () => {
         e.preventDefault()
         setFormErrors(validate(formValues))
         setIstSubmit(true)
-        
+
 
     }
     useEffect(()=>{
@@ -87,7 +87,7 @@ const SignUp = () => {
         type="text" 
         name="firstname" 
         className='inputS' 
-        placeholder='First Name' 
+        placeholder='First Name'
         value={formValues.firstname}
         onChange={handleChange}
         />
@@ -147,7 +147,7 @@ const SignUp = () => {
        className='input2' 
         value={formValues.password}
         onChange={handleChange}
-        />
+      />
        <p>{formErrors.password}</p>
        </div>
        

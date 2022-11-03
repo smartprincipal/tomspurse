@@ -116,7 +116,7 @@ const Dashboard = () => {
             <div>
             <h3>Portfolio</h3>
             </div>
-            <div>
+            <div className='wallett'>
              <Fundwallet/>
             </div>
            </div>
@@ -134,6 +134,18 @@ const Dashboard = () => {
           <div className="transactionBlock">
            <table className='transs'>
            <th>Transaction</th>
+           <tr className='trans'>
+            <td className='transHead'>Withdrawal</td>
+           <td className='colorRed'>5500</td>
+           </tr >
+           <tr className='trans'>
+            <td className='transHead'>Deposit</td>
+           <td className='colorGreen'>5500</td>
+           </tr>
+           <tr className='trans'>
+            <td className='transHead'>Interest</td>
+           <td className='colorRed'>5500</td>
+           </tr>
            <tr className='trans'>
             <td className='transHead'>Withdrawal</td>
            <td className='colorRed'>5500</td>
